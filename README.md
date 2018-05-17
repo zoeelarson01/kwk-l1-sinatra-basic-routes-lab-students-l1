@@ -1,8 +1,10 @@
 # Sinatra Routes Lab
 
-`app.rb` is the heart and soul of our Sinatra application. It handles all the incoming requests from users and directs the browser to the correct URL.
+The `app.rb` file is the heart and soul of our Sinatra application. It handles
+all the incoming requests from users and directs the browser to the correct URL.
 
-The goal of this lab is to build multiple routes that render different text. You'll be coding your solution in `app.rb`.
+The goal of this lab is to build multiple routes that render different text.
+You'll be coding your solution in `app.rb`.
 
 ## Instructions
 
@@ -14,9 +16,11 @@ get '/' do
 end
 ```
 
-In this example, when the user submits a GET request to load the homepage (the route `/`), the user will see the text `Hello, World!` in their browser.
+In this example, when the user submits a GET request to load the homepage (the
+route `/`), the user will see the text `Hello, World!` in their browser.
 
-Your goal for this lab is to set up three different `get` requests that each get processed by a different route.
+Your goal for this lab is to set up three different `get` requests that each get
+processed by a different route.
 
 You'll need to build the following routes:
 
@@ -24,8 +28,10 @@ You'll need to build the following routes:
 + hometown
 + favorite-song
 
-The `name` route should display "My name is \_\_" in the browser, the `hometown` route should display "My hometown is \_\_", and the `favorite-song` route should display "My favorite song is \_\_".
+The `name` route should display "My name is \_\_" in the browser, the `hometown`
+route should display "My hometown is \_\_", and the `favorite-song` route should
+display "My favorite song is \_\_".
 
-Don't forget to run `rspec` in terminal to test your code.
+Don't forget to run `learn` or `rspec` in terminal to test your code.
 
 <p data-visibility='hidden'>KWK-L1 Sinatra Routes Lab</p>
